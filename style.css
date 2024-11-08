@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-image: url("stacked-waves-haikei.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 60%;
+    max-width: 37.5em;
+    display: grid;
+    gap: 2em; 
+    padding: 3em 1.5em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.6em;
+    box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  
+  .memegenerator {
+    font-size: 50px;               
+    color: #ffffff;               
+    font-weight: bold;  
+    font-family: 'Playfair Display', serif;          
+    text-align: center;            
+    padding: 20px;                
+    border-radius: 10px;           
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    width: fit-content;            
+    margin: 20px auto;             
+    text-transform: uppercase;     
+    letter-spacing: 3px;          
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.memegenerator:hover {
+    transform: scale(1.05);        
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3); 
+}
+
+  .container img {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .container h3 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #737081;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+  }
+  
+  .container button {
+    font-size: 1.2em;
+    padding: 1em 1em;
+    border-radius: 2em;
+    background-color: #FF9C73;
+    border: none;
+    outline: none;
+    color: #f8f8f8;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container button:hover {
+  transform: scale(1.05);        
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3); 
+}
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      font-size: 16px;
+      gap: 1.5em;
+    }
+  
+    .container h3 {
+      font-size: 1.6em;
+    }
+  
+    .container button {
+      font-size: 1em;
+      padding: 0.8em 1.5em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 2em 1em;
+      font-size: 14px;
+      gap: 1em;
+    }
+  
+    .container h3 {
+      font-size: 1.4em;
+    }
+  
+    .container button {
+      font-size: 0.9em;
+      padding: 0.7em 1.2em;
+    }
+  }
+  
+ 
+
+
